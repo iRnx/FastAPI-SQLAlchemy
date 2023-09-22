@@ -1,6 +1,8 @@
 from core.configs import settings
 
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, BigInteger
+# from sqlalchemy.orm import Mapped
+# from sqlalchemy.orm import mapped_column
 
 
 class CursoModel(settings.DBBaseModel):
